@@ -1,0 +1,30 @@
+@charset "UTF8";
+
+
+:root{
+    --cor0: #8993FF;
+    --cor2: #93ACFF;
+    --cor3: #AECEFF;
+    --cor4: #DBEDFF;
+    --cor5: #F4FAFF;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif
+}
+body{
+    background-color: #AECEFF;
+
+}
+header{
+    background-color: #DBEDFF;
+}
+header > p{
+    
+}
+
+header > h1 {
+    color: #93ACFF
+}
+
+main h1{
+    color: #DBEDFF
+}
