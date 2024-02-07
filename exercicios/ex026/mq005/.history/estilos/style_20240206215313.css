@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: lightblue;
+}
+
+header {
+    background-color: skyblue;
+}
+
+ header > h1 {
+    padding: 10px;
+    text-align: center;
+ }
+
+menu {
+    display: block;
+}
+
+menu > h1 {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(0, 183, 255, 0.695);
+    color: black;
+    border-top: 2px solid rgba(255, 0, 255, 0.647);
+}
+
+menu > ul > li > a:hover {
+    background-color: pink;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: ;
+}
