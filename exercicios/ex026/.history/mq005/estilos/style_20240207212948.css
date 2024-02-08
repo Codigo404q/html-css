@@ -24,7 +24,7 @@ span#burguer {
     display: block;
     text-align: center;
     padding: 10px;
-    cursor: pointer;
+    cursor: pi;
 }
 
 span#burguer:hover {
@@ -33,7 +33,7 @@ span#burguer:hover {
 
 
 menu {
-    display: none;
+    display: block;
 }
 
 menu > h1 {
