@@ -36,19 +36,12 @@
     </main>
     <script>
         
+        const button = document.querySelector('button')
+        button.addEventListener('click',function(){
+            const nav = document.querySelector('nav')
+            nav.classList.toggle('active')
+        })
 
-    var itens = document.getElementById("itens");
-
-    function clickMenu(){
-        var itens = document.getElementById("itens");
-        if (itens.style.display == 'block') {
-            itens.style.display = 'none';
-        } else {
-            itens.style.display = 'block';
-        }     
-    }
-
-</script>
-
+    </script>
 </body>
 </html>
